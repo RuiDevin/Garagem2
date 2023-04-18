@@ -6,3 +6,10 @@ class MarcaSerializer(ModelSerializer):
     class Meta:
         model = Marca
         fields = "__all__"
+
+from garagem.models import Categoria
+class CategoriaSerializer(ModelSerializer):
+    class Meta:
+        model = Categoria
+        fields = "__all__"
+
